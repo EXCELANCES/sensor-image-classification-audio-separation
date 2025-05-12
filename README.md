@@ -71,21 +71,16 @@ scipy
 
 ---
 
-## 🗂️ Directory Structure
+## 📀 Test Dataset Download
 
-```
-/
-├── part1_cnn/                # Deep Learning CNN model
-│   └── cnn_model.py
-├── part2_rf_xgboost/         # Classical ML models
-│   └── classical_models.py
-├── part3_ica_audio/          # Audio source separation
-│   └── audio_separation.py
-├── README.md
-└── requirements.txt
-```
+To test the models, download the image dataset from the following Google Drive link:
+
+🔗 [Download Test Dataset](https://drive.google.com/file/d/1pxTXRGIBSeFyYRCskVBuFZA_qcHw8Oug/view?usp=sharing)
+
+Make sure to extract and organize the folders according to class labels before running the scripts.
 
 ---
+
 
 ## 📊 Performance Summary
 
@@ -97,24 +92,6 @@ scipy
 
 ---
 
-## 👥 Contributors
-
-* Ertugrul Asliyuce - `20047046`
-* Mohammad Arqam - `20035376`
-* Sai Chandrika Alla - `20028697`
-* Keerthi Pilly - `20042205`
-
----
-
-## 🎓 Academic Context
-
-* **Course Title**: Data Analytics
-* **Module**: Machine Learning and Pattern Recognition
-* **Lecturer**: Anesu Nyabadza
-* **Assignment Title**: Classification and Quality Analysis of Sensor Manufacturing Data Using Advanced Machine Learning Techniques
-* **Submission Date**: 08/12/2024
-
----
 
 ## 🌐 License
 
@@ -129,25 +106,3 @@ This project is intended for academic use. Contact authors for further usage rig
 
 ---
 
-## ⚡ Quick Start
-
-To run the CNN model:
-
-```bash
-cd part1_cnn
-python cnn_model.py
-```
-
-To run the Random Forest and XGBoost pipeline:
-
-```bash
-cd part2_rf_xgboost
-python classical_models.py
-```
-
-To run ICA audio separation:
-
-```bash
-cd part3_ica_audio
-python audio_separation.py
-```
